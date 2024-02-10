@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&display=swap');
+
+:root {
+    font-family: 'Afacad', sans-serif;
+    font-size: 18px;
+    color: #bb9;
+    background-color: #466;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+input {
+    position: absolute;
+    bottom: 1rem;
+    right:  1rem;
+    width: 6rem;
+
+    border: 2px black solid;
+    border-radius: 4px;
+    text-align: center;
+
+    background-color: #dda;
+    color: #244;
+}
+
+[anchor] {
+    bottom: 2px;
+}
